@@ -3,7 +3,7 @@ This repo gives an easy way to download ImageNet dataset on a remote server
 
 ### How to download ImageNet
 
-`apt-get install transmission-cli transmission-common transmission-daemon`
+`yes| apt-get install transmission-cli transmission-common transmission-daemon`
 
 optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default download folder from /var/lib/transmission-daemon/downloads/)
 `service transmission-daemon start`

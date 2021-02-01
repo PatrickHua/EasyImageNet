@@ -6,6 +6,7 @@ This repo gives an easy way to download ImageNet dataset on a remote server
 `yes| apt-get install transmission-cli transmission-common transmission-daemon`
 
 optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default download folder from /var/lib/transmission-daemon/downloads/)
+
 `service transmission-daemon start`
 
 `transmission-remote -n 'transmission:transmission' -a http://academictorrents.com/download/a306397ccf9c2ead27155983c254227c0fd938e2.torrent` (train)
@@ -15,7 +16,7 @@ optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default 
 
 (https://help.ubuntu.com/community/TransmissionHowTo)
 
-
+`service transmission-daemon stop` turn it off after download
 
 # Extract the training data
 `mkdir train && mv ILSVRC2012_img_train.tar train/ && cd train`

@@ -5,9 +5,9 @@ This repo gives an easy way to download ImageNet dataset on a remote server
 
 `yes| apt-get install transmission-cli transmission-common transmission-daemon`
 
-optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default download folder from /var/lib/transmission-daemon/downloads/)
 
 `service transmission-daemon start`
+optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default download folder from /var/lib/transmission-daemon/downloads/)
 
 `transmission-remote -n 'transmission:transmission' -a http://academictorrents.com/download/a306397ccf9c2ead27155983c254227c0fd938e2.torrent` (train)
 `transmission-remote -n 'transmission:transmission' -a http://academictorrents.com/download/5d6d0df7ed81efd49ca99ea4737e0ae5e3a5f2e5.torrent` (validation)

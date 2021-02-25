@@ -37,4 +37,4 @@ optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default 
 # Download ILSVRC2012_devkit_t12.tar.gz
 `wget http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_devkit_t12.tar.gz`
 
-`tar xzf ILSVRC2012_devkit_t12.tar.gz`
+

@@ -5,9 +5,9 @@ This repo gives an easy way to download ImageNet dataset on a remote server
 
 `yes| apt-get install transmission-cli transmission-common transmission-daemon`
 
-optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default download folder from /var/lib/transmission-daemon/downloads/)
 
 `service transmission-daemon start`
+optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default download folder from /var/lib/transmission-daemon/downloads/)
 
 `transmission-remote -n 'transmission:transmission' -a http://academictorrents.com/download/a306397ccf9c2ead27155983c254227c0fd938e2.torrent` (train)
 `transmission-remote -n 'transmission:transmission' -a http://academictorrents.com/download/5d6d0df7ed81efd49ca99ea4737e0ae5e3a5f2e5.torrent` (validation)
@@ -37,6 +37,7 @@ optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default 
 # Download ILSVRC2012_devkit_t12.tar.gz
 `wget http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_devkit_t12.tar.gz`
 
+<<<<<<< HEAD
 `tar xzf ILSVRC2012_devkit_t12.tar.gz`
 
 
@@ -49,4 +50,6 @@ python create_subset.py --source /folder/to/ImageNet/ --target /folder/to/Imagen
 
 
 
+=======
+>>>>>>> e3046136aa2ab8b8949d44fd886201189b492dbb
 

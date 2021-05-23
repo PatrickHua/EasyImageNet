@@ -38,3 +38,15 @@ optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default 
 `wget http://www.image-net.org/challenges/LSVRC/2012/dd31405981ef5f776aa17412e1f0c112/ILSVRC2012_devkit_t12.tar.gz`
 
 `tar xzf ILSVRC2012_devkit_t12.tar.gz`
+
+
+# Create an ImageNet subset for debugging in your local machine
+
+python create_subset.py --source /folder/to/ImageNet/ --target /folder/to/ImagenetSubset/ --samples_per_class 1
+
+
+
+
+
+
+

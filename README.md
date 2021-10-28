@@ -30,8 +30,8 @@ optional: `vim /var/lib/transmission-daemon/info/settings.json` (change default 
 #
 # Extract the validation data and move images to subfolders:
 #
-`mkdir val && mv ILSVRC2012_img_val.tar val/ && cd val && tar -xvf ILSVRC2012_img_val.tar`
-`sh valprep.sh`
+`wget https://raw.githubusercontent.com/PatrickHua/EasyImageNet/main/valprep.sh`
+`mkdir val && mv ILSVRC2012_img_val.tar val/ && mv valprep.sh val/ && cd val && tar -xvf ILSVRC2012_img_val.tar && sh valprep.sh; cd ..`
 
 
 # Download ILSVRC2012_devkit_t12.tar.gz
